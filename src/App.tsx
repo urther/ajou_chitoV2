@@ -13,7 +13,7 @@ function App() {
         <Main />
       </Route>
       <Route path="/:id">
-        <Questions />
+        <Questions result={result} setResult={setResult} />
       </Route>
       <Route path="/result/:id">
         <Result />
